@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>远程ADB遥控器</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="http://g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
+    <link rel="stylesheet" href="http://g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css">
+  </head>
+  <body>
+    <div class="content">
+      <div class="content-padded grid-demo">
+        <div class="row">
+          <div class="col-100"><img id="imageid" src="" alt="Movie finder app example" width="640" height="480" /></div>
+        </div>
+        <div class="row">
+          <div class="col-50"><p><a href="#" class="button button-dark" onclick="onClickHome()">Home</a></p></div>
+          <div class="col-50"><p><a href="#" class="button button-dark" onclick="onClickBack()">Back</a></p></div>
+        </div>
+        <div class="row">
+          <div class="col-33"><p></div>
+          <div class="col-33"><p><a href="#" class="button button-dark button-round" onclick="onClickUp()">Up</a></p></div>
+          <div class="col-33"><p></div>
+        </div>
+        <div class="row">
+          <div class="col-33"><p><a href="#" class="button button-dark button-round" onclick="onClickLeft()">Left</a></p></div>
+          <div class="col-33"><p><a href="#" class="button button-dark button-round" onclick="onClickOk()">Ok</a></p></div>
+          <div class="col-33"><p><a href="#" class="button button-dark button-round" onclick="onClickRight()">Right</a></p></div>
+        </div>
+        <div class="row">
+          <div class="col-33"><p></p></div>
+          <div class="col-33"><p><a href="#" class="button button-dark button-round" onclick="onClickDown()">Down</a></p></div>
+          <div class="col-33"><p></p></div>
+        </div>
+      </div>
+    </div>
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+    <script type='text/javascript' src='http://g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='http://g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
+  </body>
+</html>
